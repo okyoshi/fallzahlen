@@ -1,0 +1,60 @@
+body {
+	background: #282a36; /* dark blue */
+	color: white;
+	font-family: consolas, sans-serif;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: justify;
+	text-decoration: none;
+	font-size: 1.2em;
+
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+#link a {
+	position: absolute;
+	left: 50%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+ 	transform: translate(-50%,-50%);
+ 	width: 200px;
+ 	height: 60px;
+ 	text-align: center;
+ 	line-height: 60px;
+ 	color: #ff79c6;
+ 	font-size: 24px;
+ 	text-decoration: none;
+ 	text-transform: lowercase;
+ 	font-family: consolas;
+ 	background-size: 400%;
+ 	border-radius: 10px;
+ 	z-index: 1; 
+ 	font-style: italic;
+}
+
+#link a:hover {
+	color: #50fa7b;
+}
+
+::-webkit-scrollbar
+{
+	width: 0;
+}
+
+#title a {
+	color: #50fa7b; /* green */
+}
+
+#title a:hover {
+	color: #ff79c6; /* pink */
+}
+
+/* #container img {
+	width: 20%;
+	height: auto;
+}
+Bildgröße einstellen!
+*/
