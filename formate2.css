@@ -22,7 +22,7 @@ section p {
 }
 
 table {
-  font-family: consolas;
+  font-family: consolas, sans-serif;
   color: white;
   table-layout: fixed;
 }
