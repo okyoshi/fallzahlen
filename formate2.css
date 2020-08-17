@@ -33,7 +33,7 @@ table {
 th, tr {
 	width: 20%;
 	text-align: left;
-	margin-right: 5%;
+	margin-right: 10%;
 }
 
 th {
@@ -49,13 +49,13 @@ tr:nth-child(even) {
   }
 
 .body {
-	margin-left: 5%;
+	
 }
 
   .navbar {
   overflow: hidden;
   margin-top: 20%;
-  margin-left: 5%;
+ 
   color: white;
 }
 
