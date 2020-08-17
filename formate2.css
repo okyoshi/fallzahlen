@@ -5,12 +5,11 @@ body{
 
 section
 {
-	margin-left: 5%;
-	margin-right: 5%;
+	
 }
 section h2 {
 	font-size: 2.5em;
-	color: #50fa7b;
+	color: #8be9fd;
 	text-align: left;
 	text-decoration: underline;
 }
@@ -36,22 +35,35 @@ th, tr {
 	text-align: left;
 }
 
+th {
+	color: #8be9fd;
+}
+
+tr {
+	color: #fff;
+}
+
 tr:nth-child(even) {
-  background-color: grey;
+  background-color: #44475a;
   }
 
+.body {
+	margin-left: 5%;
+}
+
   .navbar {
-  background-color: #333;
   overflow: hidden;
-  margin-top: 10%;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
+  margin-top: 20%;
+  margin-left: 5%;
   color: white;
 }
 
   .navbar a {
-  color: #f2f2f2;
+  color: #8be9fd;
   text-decoration: none;
   font-size: 17px;
+}
+
+.navbar p {
+	color: #ff79c6;
 }
