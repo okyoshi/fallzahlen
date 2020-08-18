@@ -34,14 +34,16 @@ section h2 {
 	border: 2px solid #fff;
 	box-sizing: border-box;
 	width: 25%;
+	margin-bottom: 2%;
 }
 
 section h1 {
 	color: #44475a;
 	text-align: center;
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
-	text-decoration: underline;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	text-decoration: none;
+	font-size: 2em;
 }
 
 section p {
@@ -65,7 +67,7 @@ th, tr {
 }
 
 th {
-	color: #44475a;
+	color: #fff;
 }
 
 tr {
@@ -76,6 +78,7 @@ tr {
 tr:nth-child(even) {
 	background-color: rgba(0, 0, 0, 0.2);
   }
+
 
 
 
@@ -100,3 +103,23 @@ tr:nth-child(even) {
 	color: #44475a;
 }
 
+.Leutenbach {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 50%;
+	padding: 1%;
+	border-radius: 15px;
+}
+
+.Baden {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 50%;
+	padding: 1%;
+	border-radius: 15px;
+}
+
+.De {
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 50%;
+	padding: 1%;
+	border-radius: 15px;
+}
