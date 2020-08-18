@@ -27,10 +27,13 @@ section
 }
 section h2 {
 	font-size: 3em;
-	color: #44475a;
+	color: #fff;
 	text-align: center;
 	text-decoration: none;
 	margin-top: 2.5%;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	width: 25%;
 }
 
 section h1 {
@@ -38,6 +41,7 @@ section h1 {
 	text-align: center;
 	margin-bottom: 2.5%;
 	margin-top: 2.5%;
+	text-decoration: underline;
 }
 
 section p {
