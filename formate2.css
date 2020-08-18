@@ -127,23 +127,26 @@ tr:nth-child(even) {
 	border-radius: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="Leutenbach"] {
     width: 97%;
+    padding-bottom: 3%
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="Baden"] {
     width: 97%;
+    padding-bottom: 3%
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="De"] {
     width: 97%;
+    padding-bottom: 3%
   }
 }
