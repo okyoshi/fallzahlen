@@ -31,9 +31,9 @@ section h2 {
 	text-align: center;
 	text-decoration: none;
 	margin-top: 2.5%;
-	border: 2px solid #fff;
+	
 	box-sizing: border-box;
-	width: 25%;
+
 	margin-bottom: 2%;
 }
 
@@ -106,20 +106,30 @@ tr:nth-child(even) {
 .Leutenbach {
 	background-color: rgba(0, 0, 0, 0.1);
 	width: 50%;
-	padding: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	border-radius: 15px;
 }
 
 .Baden {
 	background-color: rgba(0, 0, 0, 0.1);
-	width: 50%;
-	padding: 1%;
+	width: 90%;
+	padding-top: 1%;
+	padding-bottom: 1%;;
 	border-radius: 15px;
 }
 
 .De {
 	background-color: rgba(0, 0, 0, 0.1);
-	width: 50%;
-	padding: 1%;
+	width: 90%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="Leutenbach"] {
+    width: 100%;
+  }
 }
