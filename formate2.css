@@ -21,21 +21,7 @@ background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
 }
 
-section
-{
-	
-}
-section h2 {
-	font-size: 3em;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	margin-top: 2.5%;
-	
-	box-sizing: border-box;
 
-	margin-bottom: 2%;
-}
 
 section h1 {
 	color: #44475a;
@@ -48,14 +34,14 @@ section h1 {
 
 section p {
 	font-size: 1.2em;
-	color: #fff;
+	color: #44475a;
 	text-align: justify;
 }
 
 
 table {
 
-  color: white;
+  color: #44475a;
   table-layout: fixed;
 /*  border: 1px solid white; */
 }
@@ -67,23 +53,33 @@ th, tr {
 }
 
 th {
-	color: #fff;
+	color: #44475a;
 }
 
 tr {
-	color: #fff; opacity: 1.0;
+	color: #44475a; opacity: 1.0;
 
 }
 
 tr:nth-child(even) {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.1);
   }
 
 
-
-
-.body {
-
+.Title {
+	width: 50%;
+	box-shadow: 1px 15px 40px 0px rgba(0,0,0,0.3);
+	color: #44475a;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 2.5%;
+	background-color: #fff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+	border-radius: 15px;
+	font-size: 2em;
+	position: center;
 }
 
   .navbar {
@@ -103,44 +99,16 @@ tr:nth-child(even) {
 	color: #44475a;
 }
 
-.Leutenbach {
-	background-color: rgba(0, 0, 0, 0.1);
-	width: 50%;
-	padding-top: .2%;
-	padding-bottom: 1%;
-	border-radius: 15px;
-}
-
-.Baden {
-	background-color: rgba(0, 0, 0, 0.1);
-	width: 50%;
-	padding-top: .2%;
-	padding-bottom: 1%;;
-	border-radius: 15px;
-}
-
 .De {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	/* background-color: rgba(0, 0, 0, 0.1); */
 	width: 50%;
-	padding-top: .2%;
-	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
 	border-radius: 15px;
-}
-
-@media only screen and (max-width: 1000px) {
-  /* For mobile phones: */
-  [class*="Leutenbach"] {
-    width: 97%;
-    padding-bottom: 3%
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  /* For mobile phones: */
-  [class*="Baden"] {
-    width: 97%;
-    padding-bottom: 3%
-  }
+	box-shadow: 1px 15px 40px 0px rgba(0,0,0,0.3);
+	padding-right: 1%;
+	padding-left: 1%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -148,5 +116,13 @@ tr:nth-child(even) {
   [class*="De"] {
     width: 97%;
     padding-bottom: 3%
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class*="Title"] {
+    width: 97%;
+    
   }
 }
