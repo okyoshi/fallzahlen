@@ -16,7 +16,7 @@
 }
 
 body{
-	font-family: 'FjallaOne-Regular', Arial;
+	font-family: 'FjallaOne-Regular', Arial;	
 background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
 }
@@ -78,7 +78,7 @@ tr:nth-child(even) {
 	padding-top: 1%;
 	padding-bottom: 1%;
 	margin-bottom: 2%;
-	border-radius: 5px;
+	border-radius: 10px;
 	font-size: 2em;
 	position: center;
 }
@@ -107,7 +107,7 @@ tr:nth-child(even) {
 	width: 50%;
 	padding-top: 1%;
 	padding-bottom: 2%;
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.3);
 	padding-right: 1%;
 	padding-left: 1%;
@@ -128,4 +128,40 @@ tr:nth-child(even) {
     width: 97%;
     
   }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class*="button"] {
+    width: 97%;
+    
+  }
+}
+
+#icon {
+
+}
+
+.button {
+	color: #44475a;
+	text-align: center;
+	background-color: #fff;
+	width: 20%;
+	padding: 1%;
+	margin-top: 5%;
+	border-radius: 10px;
+	box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.3);
+	text-decoration: none;
+	font-family: Arial;
+
+}
+
+.button b {
+	color: #44475a;
+
+	font-size: 0.9em;
+}
+
+a {
+	text-decoration: none;
 }
